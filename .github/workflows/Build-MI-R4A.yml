@@ -15,7 +15,7 @@ on:
 env:
   MHZ: 1200               # CPU超频频率 必须为20的倍数
   TNAME: ${{ github.event.inputs.production }}
-  REPOSITORY_URL: https://github.com/lcklo/Padavan.git
+  REPOSITORY_URL: https://github.com/lcklo/Padavan-3.4.git
          
 jobs:
   build:
